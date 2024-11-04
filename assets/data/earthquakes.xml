@@ -1,766 +1,872 @@
-<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:anss="http://anss.org/xmlns/event/0.1" xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
-<eventParameters publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.quakeml">
-<event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000npqn" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npqn.quakeml">
-<description>
-<type>earthquake name</type>
-<text>12 km SSW of Néa Poteídaia, Greece</text>
-</description>
-<origin catalog:datasource="us" catalog:dataid="us7000npqn" catalog:eventsource="us" catalog:eventid="7000npqn" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npqn/us/1730665540040/product.xml">
-<time>
-<value>2024-11-03T17:03:52.194Z</value>
-</time>
-<longitude>
-<value>23.2479</value>
-</longitude>
-<latitude>
-<value>40.0979</value>
-</latitude>
-<depth>
-<value>9000</value>
-<uncertainty>1830</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>2700</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>108</usedPhaseCount>
-<usedStationCount>107</usedStationCount>
-<standardError>0.56</standardError>
-<azimuthalGap>24</azimuthalGap>
-<minimumDistance>0.582</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-11-03T20:25:40.040Z</creationTime>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="us" catalog:dataid="us7000npqn" catalog:eventsource="us" catalog:eventid="7000npqn" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npqn/us/1730665540040/product.xml#magnitude">
-<mag>
-<value>5.2</value>
-<uncertainty>0.043</uncertainty>
-</mag>
-<type>mww</type>
-<stationCount>52</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npqn/us/1730665540040/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-11-03T20:25:40.040Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npqn/us/1730665540040/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npqn/us/1730665540040/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-11-04T10:19:55.133Z</creationTime>
-</creationInfo>
-</event>
-<event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000npn2" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npn2.quakeml">
-<description>
-<type>earthquake name</type>
-<text>73 km N of La Serena, Chile</text>
-</description>
-<origin catalog:datasource="us" catalog:dataid="us7000npn2" catalog:eventsource="us" catalog:eventid="7000npn2" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npn2/us/1730610079040/product.xml">
-<time>
-<value>2024-11-03T04:16:39.021Z</value>
-</time>
-<longitude>
-<value>-71.2687</value>
-</longitude>
-<latitude>
-<value>-29.2422</value>
-</latitude>
-<depth>
-<value>46060</value>
-<uncertainty>8943</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>4280</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>23</usedPhaseCount>
-<usedStationCount>21</usedStationCount>
-<standardError>0.77</standardError>
-<azimuthalGap>136</azimuthalGap>
-<minimumDistance>0.548</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-11-03T05:01:19.040Z</creationTime>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="us" catalog:dataid="us7000npn2" catalog:eventsource="us" catalog:eventid="7000npn2" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npn2/us/1730610079040/product.xml#magnitude">
-<mag>
-<value>4.3</value>
-</mag>
-<type>ml</type>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npn2/us/1730610079040/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>guc</agencyID>
-<creationTime>2024-11-03T05:01:19.040Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npn2/us/1730610079040/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npn2/us/1730610079040/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-11-04T10:21:25.315Z</creationTime>
-</creationInfo>
-</event>
-<event catalog:datasource="nc" catalog:eventsource="nc" catalog:eventid="75081401" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75081401.quakeml">
-<description>
-<type>earthquake name</type>
-<text>3 km NNW of The Geysers, CA</text>
-</description>
-<origin catalog:datasource="nc" catalog:dataid="nc75081401" catalog:eventsource="nc" catalog:eventid="75081401" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/nc75081401/nc/1730567515410/product.xml">
-<time>
-<value>2024-10-31T17:14:26.290Z</value>
-</time>
-<longitude>
-<value>-122.7775</value>
-</longitude>
-<latitude>
-<value>38.802833333333</value>
-</latitude>
-<depth>
-<value>3980</value>
-<uncertainty>110</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>80</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>134</usedPhaseCount>
-<usedStationCount>110</usedStationCount>
-<standardError>0.07</standardError>
-<azimuthalGap>18</azimuthalGap>
-<minimumDistance>0.0107</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>NC</agencyID>
-<creationTime>2024-11-02T17:11:55.410Z</creationTime>
-<version>3</version>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="nc" catalog:dataid="nc75081401" catalog:eventsource="nc" catalog:eventid="75081401" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/nc75081401/nc/1730567515410/product.xml#magnitude">
-<mag>
-<value>3.08</value>
-<uncertainty>0.164</uncertainty>
-</mag>
-<type>ml</type>
-<stationCount>80</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/nc75081401/nc/1730567515410/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>NC</agencyID>
-<creationTime>2024-11-02T17:11:55.410Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/nc75081401/nc/1730567515410/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/nc75081401/nc/1730567515410/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>nc</agencyID>
-<creationTime>2024-11-03T07:51:13.767Z</creationTime>
-<version>3</version>
-</creationInfo>
-</event>
-<event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000np55" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000np55.quakeml">
-<description>
-<type>earthquake name</type>
-<text>44 km WSW of Nuwaybi‘a, Egypt</text>
-</description>
-<origin catalog:datasource="us" catalog:dataid="us7000np55" catalog:eventsource="us" catalog:eventid="7000np55" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np55/us/1730350913040/product.xml">
-<time>
-<value>2024-10-31T04:35:09.862Z</value>
-</time>
-<longitude>
-<value>34.2265</value>
-</longitude>
-<latitude>
-<value>28.9395</value>
-</latitude>
-<depth>
-<value>10000</value>
-<uncertainty>2018</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>13270</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>22</usedPhaseCount>
-<usedStationCount>22</usedStationCount>
-<standardError>1.16</standardError>
-<azimuthalGap>251</azimuthalGap>
-<minimumDistance>2.626</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-31T05:01:53.040Z</creationTime>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="us" catalog:dataid="us7000np55" catalog:eventsource="us" catalog:eventid="7000np55" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np55/us/1730350913040/product.xml#magnitude">
-<mag>
-<value>4.3</value>
-<uncertainty>0.137</uncertainty>
-</mag>
-<type>mb</type>
-<stationCount>15</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np55/us/1730350913040/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-31T05:01:53.040Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np55/us/1730350913040/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np55/us/1730350913040/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-11-03T09:55:15.530Z</creationTime>
-</creationInfo>
-</event>
-<event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000np33" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000np33.quakeml">
-<description>
-<type>earthquake name</type>
-<text>279 km W of Bandon, Oregon</text>
-</description>
-<origin catalog:datasource="us" catalog:dataid="us7000np33" catalog:eventsource="us" catalog:eventid="7000np33" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np33/us/1730320339040/product.xml">
-<time>
-<value>2024-10-30T20:15:19.955Z</value>
-</time>
-<longitude>
-<value>-127.7993</value>
-</longitude>
-<latitude>
-<value>43.544</value>
-</latitude>
-<depth>
-<value>10000</value>
-<uncertainty>1877</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>10580</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>95</usedPhaseCount>
-<usedStationCount>95</usedStationCount>
-<standardError>1.06</standardError>
-<azimuthalGap>97</azimuthalGap>
-<minimumDistance>2.73</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-30T20:32:19.040Z</creationTime>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="us" catalog:dataid="us7000np33" catalog:eventsource="us" catalog:eventid="7000np33" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np33/us/1730320339040/product.xml#magnitude">
-<mag>
-<value>6</value>
-<uncertainty>0.036</uncertainty>
-</mag>
-<type>mww</type>
-<stationCount>73</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np33/us/1730320339040/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-30T20:32:19.040Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np33/us/1730320339040/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np33/us/1730320339040/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-11-03T20:25:31.514Z</creationTime>
-</creationInfo>
-</event>
-<event catalog:datasource="ci" catalog:eventsource="ci" catalog:eventid="40966024" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40966024.quakeml">
-<description>
-<type>earthquake name</type>
-<text>8 km SW of Lompoc, CA</text>
-</description>
-<origin catalog:datasource="ci" catalog:dataid="ci40966024" catalog:eventsource="ci" catalog:eventid="40966024" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40966024/ci/1730123890210/product.xml">
-<time>
-<value>2024-10-28T07:49:24.330Z</value>
-</time>
-<longitude>
-<value>-120.519</value>
-</longitude>
-<latitude>
-<value>34.5815</value>
-</latitude>
-<depth>
-<value>-80</value>
-<uncertainty>600</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>440</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>54</usedPhaseCount>
-<usedStationCount>32</usedStationCount>
-<standardError>0.26</standardError>
-<azimuthalGap>182</azimuthalGap>
-<minimumDistance>0.1241</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>CI</agencyID>
-<creationTime>2024-10-28T13:58:10.210Z</creationTime>
-<version>4</version>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="ci" catalog:dataid="ci40966024" catalog:eventsource="ci" catalog:eventid="40966024" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40966024/ci/1730123890210/product.xml#magnitude">
-<mag>
-<value>3.64</value>
-<uncertainty>0.141</uncertainty>
-</mag>
-<type>ml</type>
-<stationCount>86</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci40966024/ci/1730123890210/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>CI</agencyID>
-<creationTime>2024-10-28T13:58:10.210Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci40966024/ci/1730123890210/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci40966024/ci/1730123890210/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>ci</agencyID>
-<creationTime>2024-10-30T13:34:20.677Z</creationTime>
-<version>4</version>
-</creationInfo>
-</event>
-<event catalog:datasource="ci" catalog:eventsource="ci" catalog:eventid="40965984" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40965984.quakeml">
-<description>
-<type>earthquake name</type>
-<text>10 km SW of Lompoc, CA</text>
-</description>
-<origin catalog:datasource="ci" catalog:dataid="ci40965984" catalog:eventsource="ci" catalog:eventid="40965984" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40965984/ci/1730124950480/product.xml">
-<time>
-<value>2024-10-28T03:55:49.610Z</value>
-</time>
-<longitude>
-<value>-120.534</value>
-</longitude>
-<latitude>
-<value>34.5735</value>
-</latitude>
-<depth>
-<value>-90</value>
-<uncertainty>760</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>530</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>55</usedPhaseCount>
-<usedStationCount>29</usedStationCount>
-<standardError>0.29</standardError>
-<azimuthalGap>188</azimuthalGap>
-<minimumDistance>0.1372</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>CI</agencyID>
-<creationTime>2024-10-28T14:15:50.480Z</creationTime>
-<version>6</version>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="ci" catalog:dataid="ci40965984" catalog:eventsource="ci" catalog:eventid="40965984" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40965984/ci/1730124950480/product.xml#magnitude">
-<mag>
-<value>3.19</value>
-<uncertainty>0.138</uncertainty>
-</mag>
-<type>ml</type>
-<stationCount>73</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci40965984/ci/1730124950480/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>CI</agencyID>
-<creationTime>2024-10-28T14:15:50.480Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci40965984/ci/1730124950480/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci40965984/ci/1730124950480/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>ci</agencyID>
-<creationTime>2024-10-30T13:32:49.321Z</creationTime>
-<version>6</version>
-</creationInfo>
-</event>
-<event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000nnfr" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnfr.quakeml">
-<description>
-<type>earthquake name</type>
-<text>7 km S of Pizitou, Taiwan</text>
-</description>
-<origin catalog:datasource="us" catalog:dataid="us7000nnfr" catalog:eventsource="us" catalog:eventid="7000nnfr" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfr/us/1730013818040/product.xml">
-<time>
-<value>2024-10-27T06:56:54.934Z</value>
-</time>
-<longitude>
-<value>120.447</value>
-</longitude>
-<latitude>
-<value>23.4181</value>
-</latitude>
-<depth>
-<value>10000</value>
-<uncertainty>1881</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>4240</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>31</usedPhaseCount>
-<usedStationCount>31</usedStationCount>
-<standardError>1.29</standardError>
-<azimuthalGap>97</azimuthalGap>
-<minimumDistance>0.205</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-27T07:23:38.040Z</creationTime>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="us" catalog:dataid="us7000nnfr" catalog:eventsource="us" catalog:eventid="7000nnfr" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfr/us/1730013818040/product.xml#magnitude">
-<mag>
-<value>4.2</value>
-<uncertainty>0.073</uncertainty>
-</mag>
-<type>mwr</type>
-<stationCount>18</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfr/us/1730013818040/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-27T07:23:38.040Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfr/us/1730013818040/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfr/us/1730013818040/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-30T13:41:07.246Z</creationTime>
-</creationInfo>
-</event>
-<event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000nnfp" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnfp.quakeml">
-<description>
-<type>earthquake name</type>
-<text>8 km SSW of Pizitou, Taiwan</text>
-</description>
-<origin catalog:datasource="us" catalog:dataid="us7000nnfp" catalog:eventsource="us" catalog:eventid="7000nnfp" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfp/us/1730012856040/product.xml">
-<time>
-<value>2024-10-27T06:19:12.768Z</value>
-</time>
-<longitude>
-<value>120.4172</value>
-</longitude>
-<latitude>
-<value>23.4128</value>
-</latitude>
-<depth>
-<value>10000</value>
-<uncertainty>1873</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>3740</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>40</usedPhaseCount>
-<usedStationCount>37</usedStationCount>
-<standardError>1.14</standardError>
-<azimuthalGap>99</azimuthalGap>
-<minimumDistance>0.225</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-27T07:07:36.040Z</creationTime>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="us" catalog:dataid="us7000nnfp" catalog:eventsource="us" catalog:eventid="7000nnfp" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfp/us/1730012856040/product.xml#magnitude">
-<mag>
-<value>4.3</value>
-<uncertainty>0.068</uncertainty>
-</mag>
-<type>mwr</type>
-<stationCount>21</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfp/us/1730012856040/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-27T07:07:36.040Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfp/us/1730012856040/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfp/us/1730012856040/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-30T14:38:35.471Z</creationTime>
-</creationInfo>
-</event>
-<event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000nn6t" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nn6t.quakeml">
-<description>
-<type>earthquake name</type>
-<text>82 km SW of Brisas Barra de Suchiate, Mexico</text>
-</description>
-<origin catalog:datasource="us" catalog:dataid="us7000nn6t" catalog:eventsource="us" catalog:eventid="7000nn6t" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nn6t/us/1729868438040/product.xml">
-<time>
-<value>2024-10-25T14:46:22.315Z</value>
-</time>
-<longitude>
-<value>-92.7139</value>
-</longitude>
-<latitude>
-<value>13.9643</value>
-</latitude>
-<depth>
-<value>10000</value>
-<uncertainty>1888</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>7090</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>94</usedPhaseCount>
-<usedStationCount>93</usedStationCount>
-<standardError>1.84</standardError>
-<azimuthalGap>137</azimuthalGap>
-<minimumDistance>1.615</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-25T15:00:38.040Z</creationTime>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="us" catalog:dataid="us7000nn6t" catalog:eventsource="us" catalog:eventid="7000nn6t" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nn6t/us/1729868438040/product.xml#magnitude">
-<mag>
-<value>5.8</value>
-<uncertainty>0.052</uncertainty>
-</mag>
-<type>mww</type>
-<stationCount>35</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nn6t/us/1729868438040/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-25T15:00:38.040Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nn6t/us/1729868438040/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nn6t/us/1729868438040/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-30T15:59:04.280Z</creationTime>
-</creationInfo>
-</event>
-<event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000nyzk" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nyzk.quakeml">
-<description>
-<type>earthquake name</type>
-<text>18 km W of Doğanyol, Turkey</text>
-</description>
-<origin catalog:datasource="us" catalog:dataid="us6000nyzk" catalog:eventsource="us" catalog:eventid="6000nyzk" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyzk/us/1729065765040/product.xml">
-<time>
-<value>2024-10-16T07:46:32.889Z</value>
-</time>
-<longitude>
-<value>38.8261</value>
-</longitude>
-<latitude>
-<value>38.3086</value>
-</latitude>
-<depth>
-<value>10000</value>
-<uncertainty>1815</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>3780</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>120</usedPhaseCount>
-<usedStationCount>118</usedStationCount>
-<standardError>1.02</standardError>
-<azimuthalGap>43</azimuthalGap>
-<minimumDistance>0.383</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-16T08:02:45.040Z</creationTime>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="us" catalog:dataid="us6000nyzk" catalog:eventsource="us" catalog:eventid="6000nyzk" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyzk/us/1729065765040/product.xml#magnitude">
-<mag>
-<value>6</value>
-<uncertainty>0.042</uncertainty>
-</mag>
-<type>mww</type>
-<stationCount>55</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyzk/us/1729065765040/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-16T08:02:45.040Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyzk/us/1729065765040/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyzk/us/1729065765040/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-30T02:58:09.555Z</creationTime>
-</creationInfo>
-</event>
-<event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000nyau" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nyau.quakeml">
-<description>
-<type>earthquake name</type>
-<text>41 km WNW of Tamarindo, Costa Rica</text>
-</description>
-<origin catalog:datasource="us" catalog:dataid="us6000nyau" catalog:eventsource="us" catalog:eventid="6000nyau" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyau/us/1728930681040/product.xml">
-<time>
-<value>2024-10-12T17:43:44.471Z</value>
-</time>
-<longitude>
-<value>-86.1712</value>
-</longitude>
-<latitude>
-<value>10.487</value>
-</latitude>
-<depth>
-<value>16000</value>
-<uncertainty>1708</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>5460</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>234</usedPhaseCount>
-<usedStationCount>225</usedStationCount>
-<standardError>0.91</standardError>
-<azimuthalGap>32</azimuthalGap>
-<minimumDistance>0.912</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-14T18:31:21.040Z</creationTime>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="us" catalog:dataid="us6000nyau" catalog:eventsource="us" catalog:eventid="6000nyau" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyau/us/1728930681040/product.xml#magnitude">
-<mag>
-<value>6.2</value>
-<uncertainty>0.03</uncertainty>
-</mag>
-<type>mww</type>
-<stationCount>110</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyau/us/1728930681040/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-14T18:31:21.040Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyau/us/1728930681040/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyau/us/1728930681040/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>us</agencyID>
-<creationTime>2024-10-15T09:35:15.520Z</creationTime>
-</creationInfo>
-</event>
-<event catalog:datasource="ci" catalog:eventsource="ci" catalog:eventid="40752807" publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40752807.quakeml">
-<description>
-<type>earthquake name</type>
-<text>5 km SE of Ontario, CA</text>
-</description>
-<origin catalog:datasource="ci" catalog:dataid="ci40752807" catalog:eventsource="ci" catalog:eventid="40752807" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40752807/ci/1728230036510/product.xml">
-<time>
-<value>2024-10-06T10:51:08.410Z</value>
-</time>
-<longitude>
-<value>-117.5923333</value>
-</longitude>
-<latitude>
-<value>34.0236667</value>
-</latitude>
-<depth>
-<value>5170</value>
-<uncertainty>300</uncertainty>
-</depth>
-<originUncertainty>
-<horizontalUncertainty>120</horizontalUncertainty>
-<preferredDescription>horizontal uncertainty</preferredDescription>
-</originUncertainty>
-<quality>
-<usedPhaseCount>319</usedPhaseCount>
-<usedStationCount>183</usedStationCount>
-<standardError>0.25</standardError>
-<azimuthalGap>12</azimuthalGap>
-<minimumDistance>0.01565</minimumDistance>
-</quality>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>CI</agencyID>
-<creationTime>2024-10-06T15:53:56.510Z</creationTime>
-<version>6</version>
-</creationInfo>
-</origin>
-<magnitude catalog:datasource="ci" catalog:dataid="ci40752807" catalog:eventsource="ci" catalog:eventid="40752807" publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40752807/ci/1728230036510/product.xml#magnitude">
-<mag>
-<value>3.99</value>
-</mag>
-<type>mw</type>
-<stationCount>6</stationCount>
-<originID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci40752807/ci/1728230036510/product.xml</originID>
-<evaluationMode>manual</evaluationMode>
-<creationInfo>
-<agencyID>CI</agencyID>
-<creationTime>2024-10-06T15:53:56.510Z</creationTime>
-</creationInfo>
-</magnitude>
-<preferredOriginID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci40752807/ci/1728230036510/product.xml</preferredOriginID>
-<preferredMagnitudeID>quakeml:earthquake.usgs.gov/realtime/product/origin/ci40752807/ci/1728230036510/product.xml#magnitude</preferredMagnitudeID>
-<type>earthquake</type>
-<creationInfo>
-<agencyID>ci</agencyID>
-<creationTime>2024-10-27T05:22:26.156Z</creationTime>
-<version>6</version>
-</creationInfo>
-</event>
-<creationInfo>
-<creationTime>2024-11-04T10:21:51.000Z</creationTime>
-</creationInfo>
-</eventParameters>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:anss="http://anss.org/xmlns/event/0.1"
+    xmlns:catalog="http://anss.org/xmlns/catalog/0.1" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+    <eventParameters
+        publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.quakeml">
+        <event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000npqn"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npqn.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>12 km SSW of Néa Poteídaia, Greece</text>
+            </description>
+            <origin catalog:datasource="us" catalog:dataid="us7000npqn" catalog:eventsource="us"
+                catalog:eventid="7000npqn"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npqn/us/1730665540040/product.xml">
+                <time>
+                    <value>2024-11-03T17:03:52.194Z</value>
+                </time>
+                <longitude>
+                    <value>23.2479</value>
+                </longitude>
+                <latitude>
+                    <value>40.0979</value>
+                </latitude>
+                <depth>
+                    <value>9000</value>
+                    <uncertainty>1830</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>2700</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>108</usedPhaseCount>
+                    <usedStationCount>107</usedStationCount>
+                    <standardError>0.56</standardError>
+                    <azimuthalGap>24</azimuthalGap>
+                    <minimumDistance>0.582</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-11-03T20:25:40.040Z</creationTime>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="us" catalog:dataid="us7000npqn" catalog:eventsource="us"
+                catalog:eventid="7000npqn"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npqn/us/1730665540040/product.xml#magnitude">
+                <mag>
+                    <value>5.2</value>
+                    <uncertainty>0.043</uncertainty>
+                </mag>
+                <type>mww</type>
+                <stationCount>52</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npqn/us/1730665540040/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-11-03T20:25:40.040Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npqn/us/1730665540040/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npqn/us/1730665540040/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>us</agencyID>
+                <creationTime>2024-11-04T10:19:55.133Z</creationTime>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000npn2"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000npn2.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>73 km N of La Serena, Chile</text>
+            </description>
+            <origin catalog:datasource="us" catalog:dataid="us7000npn2" catalog:eventsource="us"
+                catalog:eventid="7000npn2"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npn2/us/1730610079040/product.xml">
+                <time>
+                    <value>2024-11-03T04:16:39.021Z</value>
+                </time>
+                <longitude>
+                    <value>-71.2687</value>
+                </longitude>
+                <latitude>
+                    <value>-29.2422</value>
+                </latitude>
+                <depth>
+                    <value>46060</value>
+                    <uncertainty>8943</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>4280</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>23</usedPhaseCount>
+                    <usedStationCount>21</usedStationCount>
+                    <standardError>0.77</standardError>
+                    <azimuthalGap>136</azimuthalGap>
+                    <minimumDistance>0.548</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-11-03T05:01:19.040Z</creationTime>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="us" catalog:dataid="us7000npn2" catalog:eventsource="us"
+                catalog:eventid="7000npn2"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npn2/us/1730610079040/product.xml#magnitude">
+                <mag>
+                    <value>4.3</value>
+                </mag>
+                <type>ml</type>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npn2/us/1730610079040/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>guc</agencyID>
+                    <creationTime>2024-11-03T05:01:19.040Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npn2/us/1730610079040/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000npn2/us/1730610079040/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>us</agencyID>
+                <creationTime>2024-11-04T10:21:25.315Z</creationTime>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="nc" catalog:eventsource="nc" catalog:eventid="75081401"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75081401.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>3 km NNW of The Geysers, CA</text>
+            </description>
+            <origin catalog:datasource="nc" catalog:dataid="nc75081401" catalog:eventsource="nc"
+                catalog:eventid="75081401"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/nc75081401/nc/1730567515410/product.xml">
+                <time>
+                    <value>2024-10-31T17:14:26.290Z</value>
+                </time>
+                <longitude>
+                    <value>-122.7775</value>
+                </longitude>
+                <latitude>
+                    <value>38.802833333333</value>
+                </latitude>
+                <depth>
+                    <value>3980</value>
+                    <uncertainty>110</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>80</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>134</usedPhaseCount>
+                    <usedStationCount>110</usedStationCount>
+                    <standardError>0.07</standardError>
+                    <azimuthalGap>18</azimuthalGap>
+                    <minimumDistance>0.0107</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>NC</agencyID>
+                    <creationTime>2024-11-02T17:11:55.410Z</creationTime>
+                    <version>3</version>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="nc" catalog:dataid="nc75081401" catalog:eventsource="nc"
+                catalog:eventid="75081401"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/nc75081401/nc/1730567515410/product.xml#magnitude">
+                <mag>
+                    <value>3.08</value>
+                    <uncertainty>0.164</uncertainty>
+                </mag>
+                <type>ml</type>
+                <stationCount>80</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/nc75081401/nc/1730567515410/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>NC</agencyID>
+                    <creationTime>2024-11-02T17:11:55.410Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/nc75081401/nc/1730567515410/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/nc75081401/nc/1730567515410/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>nc</agencyID>
+                <creationTime>2024-11-03T07:51:13.767Z</creationTime>
+                <version>3</version>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000np55"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000np55.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>44 km WSW of Nuwaybi‘a, Egypt</text>
+            </description>
+            <origin catalog:datasource="us" catalog:dataid="us7000np55" catalog:eventsource="us"
+                catalog:eventid="7000np55"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np55/us/1730350913040/product.xml">
+                <time>
+                    <value>2024-10-31T04:35:09.862Z</value>
+                </time>
+                <longitude>
+                    <value>34.2265</value>
+                </longitude>
+                <latitude>
+                    <value>28.9395</value>
+                </latitude>
+                <depth>
+                    <value>10000</value>
+                    <uncertainty>2018</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>13270</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>22</usedPhaseCount>
+                    <usedStationCount>22</usedStationCount>
+                    <standardError>1.16</standardError>
+                    <azimuthalGap>251</azimuthalGap>
+                    <minimumDistance>2.626</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-31T05:01:53.040Z</creationTime>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="us" catalog:dataid="us7000np55" catalog:eventsource="us"
+                catalog:eventid="7000np55"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np55/us/1730350913040/product.xml#magnitude">
+                <mag>
+                    <value>4.3</value>
+                    <uncertainty>0.137</uncertainty>
+                </mag>
+                <type>mb</type>
+                <stationCount>15</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np55/us/1730350913040/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-31T05:01:53.040Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np55/us/1730350913040/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np55/us/1730350913040/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>us</agencyID>
+                <creationTime>2024-11-03T09:55:15.530Z</creationTime>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000np33"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000np33.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>279 km W of Bandon, Oregon</text>
+            </description>
+            <origin catalog:datasource="us" catalog:dataid="us7000np33" catalog:eventsource="us"
+                catalog:eventid="7000np33"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np33/us/1730320339040/product.xml">
+                <time>
+                    <value>2024-10-30T20:15:19.955Z</value>
+                </time>
+                <longitude>
+                    <value>-127.7993</value>
+                </longitude>
+                <latitude>
+                    <value>43.544</value>
+                </latitude>
+                <depth>
+                    <value>10000</value>
+                    <uncertainty>1877</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>10580</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>95</usedPhaseCount>
+                    <usedStationCount>95</usedStationCount>
+                    <standardError>1.06</standardError>
+                    <azimuthalGap>97</azimuthalGap>
+                    <minimumDistance>2.73</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-30T20:32:19.040Z</creationTime>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="us" catalog:dataid="us7000np33" catalog:eventsource="us"
+                catalog:eventid="7000np33"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np33/us/1730320339040/product.xml#magnitude">
+                <mag>
+                    <value>6</value>
+                    <uncertainty>0.036</uncertainty>
+                </mag>
+                <type>mww</type>
+                <stationCount>73</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np33/us/1730320339040/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-30T20:32:19.040Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np33/us/1730320339040/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000np33/us/1730320339040/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>us</agencyID>
+                <creationTime>2024-11-03T20:25:31.514Z</creationTime>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="ci" catalog:eventsource="ci" catalog:eventid="40966024"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40966024.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>8 km SW of Lompoc, CA</text>
+            </description>
+            <origin catalog:datasource="ci" catalog:dataid="ci40966024" catalog:eventsource="ci"
+                catalog:eventid="40966024"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40966024/ci/1730123890210/product.xml">
+                <time>
+                    <value>2024-10-28T07:49:24.330Z</value>
+                </time>
+                <longitude>
+                    <value>-120.519</value>
+                </longitude>
+                <latitude>
+                    <value>34.5815</value>
+                </latitude>
+                <depth>
+                    <value>-80</value>
+                    <uncertainty>600</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>440</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>54</usedPhaseCount>
+                    <usedStationCount>32</usedStationCount>
+                    <standardError>0.26</standardError>
+                    <azimuthalGap>182</azimuthalGap>
+                    <minimumDistance>0.1241</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>CI</agencyID>
+                    <creationTime>2024-10-28T13:58:10.210Z</creationTime>
+                    <version>4</version>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="ci" catalog:dataid="ci40966024" catalog:eventsource="ci"
+                catalog:eventid="40966024"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40966024/ci/1730123890210/product.xml#magnitude">
+                <mag>
+                    <value>3.64</value>
+                    <uncertainty>0.141</uncertainty>
+                </mag>
+                <type>ml</type>
+                <stationCount>86</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/ci40966024/ci/1730123890210/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>CI</agencyID>
+                    <creationTime>2024-10-28T13:58:10.210Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/ci40966024/ci/1730123890210/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/ci40966024/ci/1730123890210/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>ci</agencyID>
+                <creationTime>2024-10-30T13:34:20.677Z</creationTime>
+                <version>4</version>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="ci" catalog:eventsource="ci" catalog:eventid="40965984"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40965984.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>10 km SW of Lompoc, CA</text>
+            </description>
+            <origin catalog:datasource="ci" catalog:dataid="ci40965984" catalog:eventsource="ci"
+                catalog:eventid="40965984"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40965984/ci/1730124950480/product.xml">
+                <time>
+                    <value>2024-10-28T03:55:49.610Z</value>
+                </time>
+                <longitude>
+                    <value>-120.534</value>
+                </longitude>
+                <latitude>
+                    <value>34.5735</value>
+                </latitude>
+                <depth>
+                    <value>-90</value>
+                    <uncertainty>760</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>530</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>55</usedPhaseCount>
+                    <usedStationCount>29</usedStationCount>
+                    <standardError>0.29</standardError>
+                    <azimuthalGap>188</azimuthalGap>
+                    <minimumDistance>0.1372</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>CI</agencyID>
+                    <creationTime>2024-10-28T14:15:50.480Z</creationTime>
+                    <version>6</version>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="ci" catalog:dataid="ci40965984" catalog:eventsource="ci"
+                catalog:eventid="40965984"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40965984/ci/1730124950480/product.xml#magnitude">
+                <mag>
+                    <value>3.19</value>
+                    <uncertainty>0.138</uncertainty>
+                </mag>
+                <type>ml</type>
+                <stationCount>73</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/ci40965984/ci/1730124950480/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>CI</agencyID>
+                    <creationTime>2024-10-28T14:15:50.480Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/ci40965984/ci/1730124950480/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/ci40965984/ci/1730124950480/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>ci</agencyID>
+                <creationTime>2024-10-30T13:32:49.321Z</creationTime>
+                <version>6</version>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000nnfr"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnfr.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>7 km S of Pizitou, Taiwan</text>
+            </description>
+            <origin catalog:datasource="us" catalog:dataid="us7000nnfr" catalog:eventsource="us"
+                catalog:eventid="7000nnfr"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfr/us/1730013818040/product.xml">
+                <time>
+                    <value>2024-10-27T06:56:54.934Z</value>
+                </time>
+                <longitude>
+                    <value>120.447</value>
+                </longitude>
+                <latitude>
+                    <value>23.4181</value>
+                </latitude>
+                <depth>
+                    <value>10000</value>
+                    <uncertainty>1881</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>4240</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>31</usedPhaseCount>
+                    <usedStationCount>31</usedStationCount>
+                    <standardError>1.29</standardError>
+                    <azimuthalGap>97</azimuthalGap>
+                    <minimumDistance>0.205</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-27T07:23:38.040Z</creationTime>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="us" catalog:dataid="us7000nnfr" catalog:eventsource="us"
+                catalog:eventid="7000nnfr"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfr/us/1730013818040/product.xml#magnitude">
+                <mag>
+                    <value>4.2</value>
+                    <uncertainty>0.073</uncertainty>
+                </mag>
+                <type>mwr</type>
+                <stationCount>18</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfr/us/1730013818040/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-27T07:23:38.040Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfr/us/1730013818040/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfr/us/1730013818040/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>us</agencyID>
+                <creationTime>2024-10-30T13:41:07.246Z</creationTime>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000nnfp"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nnfp.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>8 km SSW of Pizitou, Taiwan</text>
+            </description>
+            <origin catalog:datasource="us" catalog:dataid="us7000nnfp" catalog:eventsource="us"
+                catalog:eventid="7000nnfp"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfp/us/1730012856040/product.xml">
+                <time>
+                    <value>2024-10-27T06:19:12.768Z</value>
+                </time>
+                <longitude>
+                    <value>120.4172</value>
+                </longitude>
+                <latitude>
+                    <value>23.4128</value>
+                </latitude>
+                <depth>
+                    <value>10000</value>
+                    <uncertainty>1873</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>3740</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>40</usedPhaseCount>
+                    <usedStationCount>37</usedStationCount>
+                    <standardError>1.14</standardError>
+                    <azimuthalGap>99</azimuthalGap>
+                    <minimumDistance>0.225</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-27T07:07:36.040Z</creationTime>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="us" catalog:dataid="us7000nnfp" catalog:eventsource="us"
+                catalog:eventid="7000nnfp"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfp/us/1730012856040/product.xml#magnitude">
+                <mag>
+                    <value>4.3</value>
+                    <uncertainty>0.068</uncertainty>
+                </mag>
+                <type>mwr</type>
+                <stationCount>21</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfp/us/1730012856040/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-27T07:07:36.040Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfp/us/1730012856040/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nnfp/us/1730012856040/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>us</agencyID>
+                <creationTime>2024-10-30T14:38:35.471Z</creationTime>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="7000nn6t"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000nn6t.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>82 km SW of Brisas Barra de Suchiate, Mexico</text>
+            </description>
+            <origin catalog:datasource="us" catalog:dataid="us7000nn6t" catalog:eventsource="us"
+                catalog:eventid="7000nn6t"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nn6t/us/1729868438040/product.xml">
+                <time>
+                    <value>2024-10-25T14:46:22.315Z</value>
+                </time>
+                <longitude>
+                    <value>-92.7139</value>
+                </longitude>
+                <latitude>
+                    <value>13.9643</value>
+                </latitude>
+                <depth>
+                    <value>10000</value>
+                    <uncertainty>1888</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>7090</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>94</usedPhaseCount>
+                    <usedStationCount>93</usedStationCount>
+                    <standardError>1.84</standardError>
+                    <azimuthalGap>137</azimuthalGap>
+                    <minimumDistance>1.615</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-25T15:00:38.040Z</creationTime>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="us" catalog:dataid="us7000nn6t" catalog:eventsource="us"
+                catalog:eventid="7000nn6t"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nn6t/us/1729868438040/product.xml#magnitude">
+                <mag>
+                    <value>5.8</value>
+                    <uncertainty>0.052</uncertainty>
+                </mag>
+                <type>mww</type>
+                <stationCount>35</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nn6t/us/1729868438040/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-25T15:00:38.040Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nn6t/us/1729868438040/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us7000nn6t/us/1729868438040/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>us</agencyID>
+                <creationTime>2024-10-30T15:59:04.280Z</creationTime>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000nyzk"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nyzk.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>18 km W of Doğanyol, Turkey</text>
+            </description>
+            <origin catalog:datasource="us" catalog:dataid="us6000nyzk" catalog:eventsource="us"
+                catalog:eventid="6000nyzk"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyzk/us/1729065765040/product.xml">
+                <time>
+                    <value>2024-10-16T07:46:32.889Z</value>
+                </time>
+                <longitude>
+                    <value>38.8261</value>
+                </longitude>
+                <latitude>
+                    <value>38.3086</value>
+                </latitude>
+                <depth>
+                    <value>10000</value>
+                    <uncertainty>1815</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>3780</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>120</usedPhaseCount>
+                    <usedStationCount>118</usedStationCount>
+                    <standardError>1.02</standardError>
+                    <azimuthalGap>43</azimuthalGap>
+                    <minimumDistance>0.383</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-16T08:02:45.040Z</creationTime>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="us" catalog:dataid="us6000nyzk" catalog:eventsource="us"
+                catalog:eventid="6000nyzk"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyzk/us/1729065765040/product.xml#magnitude">
+                <mag>
+                    <value>6</value>
+                    <uncertainty>0.042</uncertainty>
+                </mag>
+                <type>mww</type>
+                <stationCount>55</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyzk/us/1729065765040/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-16T08:02:45.040Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyzk/us/1729065765040/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyzk/us/1729065765040/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>us</agencyID>
+                <creationTime>2024-10-30T02:58:09.555Z</creationTime>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="us" catalog:eventsource="us" catalog:eventid="6000nyau"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000nyau.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>41 km WNW of Tamarindo, Costa Rica</text>
+            </description>
+            <origin catalog:datasource="us" catalog:dataid="us6000nyau" catalog:eventsource="us"
+                catalog:eventid="6000nyau"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyau/us/1728930681040/product.xml">
+                <time>
+                    <value>2024-10-12T17:43:44.471Z</value>
+                </time>
+                <longitude>
+                    <value>-86.1712</value>
+                </longitude>
+                <latitude>
+                    <value>10.487</value>
+                </latitude>
+                <depth>
+                    <value>16000</value>
+                    <uncertainty>1708</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>5460</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>234</usedPhaseCount>
+                    <usedStationCount>225</usedStationCount>
+                    <standardError>0.91</standardError>
+                    <azimuthalGap>32</azimuthalGap>
+                    <minimumDistance>0.912</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-14T18:31:21.040Z</creationTime>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="us" catalog:dataid="us6000nyau" catalog:eventsource="us"
+                catalog:eventid="6000nyau"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyau/us/1728930681040/product.xml#magnitude">
+                <mag>
+                    <value>6.2</value>
+                    <uncertainty>0.03</uncertainty>
+                </mag>
+                <type>mww</type>
+                <stationCount>110</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyau/us/1728930681040/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>us</agencyID>
+                    <creationTime>2024-10-14T18:31:21.040Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyau/us/1728930681040/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/us6000nyau/us/1728930681040/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>us</agencyID>
+                <creationTime>2024-10-15T09:35:15.520Z</creationTime>
+            </creationInfo>
+        </event>
+        <event catalog:datasource="ci" catalog:eventsource="ci" catalog:eventid="40752807"
+            publicID="quakeml:earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci40752807.quakeml">
+            <description>
+                <type>earthquake name</type>
+                <text>5 km SE of Ontario, CA</text>
+            </description>
+            <origin catalog:datasource="ci" catalog:dataid="ci40752807" catalog:eventsource="ci"
+                catalog:eventid="40752807"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40752807/ci/1728230036510/product.xml">
+                <time>
+                    <value>2024-10-06T10:51:08.410Z</value>
+                </time>
+                <longitude>
+                    <value>-117.5923333</value>
+                </longitude>
+                <latitude>
+                    <value>34.0236667</value>
+                </latitude>
+                <depth>
+                    <value>5170</value>
+                    <uncertainty>300</uncertainty>
+                </depth>
+                <originUncertainty>
+                    <horizontalUncertainty>120</horizontalUncertainty>
+                    <preferredDescription>horizontal uncertainty</preferredDescription>
+                </originUncertainty>
+                <quality>
+                    <usedPhaseCount>319</usedPhaseCount>
+                    <usedStationCount>183</usedStationCount>
+                    <standardError>0.25</standardError>
+                    <azimuthalGap>12</azimuthalGap>
+                    <minimumDistance>0.01565</minimumDistance>
+                </quality>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>CI</agencyID>
+                    <creationTime>2024-10-06T15:53:56.510Z</creationTime>
+                    <version>6</version>
+                </creationInfo>
+            </origin>
+            <magnitude catalog:datasource="ci" catalog:dataid="ci40752807" catalog:eventsource="ci"
+                catalog:eventid="40752807"
+                publicID="quakeml:earthquake.usgs.gov/realtime/product/origin/ci40752807/ci/1728230036510/product.xml#magnitude">
+                <mag>
+                    <value>3.99</value>
+                </mag>
+                <type>mw</type>
+                <stationCount>6</stationCount>
+                <originID>
+                    quakeml:earthquake.usgs.gov/realtime/product/origin/ci40752807/ci/1728230036510/product.xml</originID>
+                <evaluationMode>manual</evaluationMode>
+                <creationInfo>
+                    <agencyID>CI</agencyID>
+                    <creationTime>2024-10-06T15:53:56.510Z</creationTime>
+                </creationInfo>
+            </magnitude>
+            <preferredOriginID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/ci40752807/ci/1728230036510/product.xml</preferredOriginID>
+            <preferredMagnitudeID>
+                quakeml:earthquake.usgs.gov/realtime/product/origin/ci40752807/ci/1728230036510/product.xml#magnitude</preferredMagnitudeID>
+            <type>earthquake</type>
+            <creationInfo>
+                <agencyID>ci</agencyID>
+                <creationTime>2024-10-27T05:22:26.156Z</creationTime>
+                <version>6</version>
+            </creationInfo>
+        </event>
+        <creationInfo>
+            <creationTime>2024-11-04T10:21:51.000Z</creationTime>
+        </creationInfo>
+    </eventParameters>
 </q:quakeml>
