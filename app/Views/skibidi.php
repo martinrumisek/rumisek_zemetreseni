@@ -19,11 +19,29 @@
 <body>
     <div id="map"></div>
     <script>
-        var map = L.map('map').setView([49.8175, 15.473], 4); // Střed ČR, zoom 4
+         // Inicializace mapy
+         var map = L.map('map').setView([49.8175, 15.473], 4); // Střed ČR, zoom 4
+
+        // Přidání dlaždic
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
+
+        // Data o zemětřeseních
+        const earthquakes = <?= $earthquakes ?>;
+
+        // Přidání bodů na mapu
+        earthquakes.forEach(eq => {
+            const popupContent = `
+                <strong>${eq.description}</strong><br>
+                Magnitude: ${eq.magnitude}<br>
+                Depth: ${eq.depth} m
+            `;
+
+            L.marker([eq.latitude, eq.longitude]).addTo(map)
+                .bindPopup(popupContent);
+        });
     </script>
 </body>
 
