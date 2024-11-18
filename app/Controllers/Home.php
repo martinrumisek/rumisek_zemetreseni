@@ -24,13 +24,13 @@ class Home extends BaseController
         $namespaces = $xml->getNamespaces(true);
 
         // Přístup ke kořenovému elementu <q:quakeml> v namespace 'q'
-        $quakeml = $xml->children($namespaces['q']);
+        $quakeml = $xml->children();
         if (!$quakeml) {
             die('Kořenový element <q:quakeml> nebyl nalezen.');
         }
 
         // Přístup k <eventParameters> přes výchozí namespace
-        $eventParameters = $quakeml->children($namespaces[''])->eventParameters ?? null;
+        $eventParameters = $quakeml->eventParameters ?? null;
         if (!$eventParameters) {
             die('Element <eventParameters> nebyl nalezen.');
         }
