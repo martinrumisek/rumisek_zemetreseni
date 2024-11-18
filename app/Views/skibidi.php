@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zobrazení zemětřesení pomocí xml</title>
     <link rel="stylesheet" href="<?= base_url('node_modules/leaflet/dist/leaflet.css'); ?>">
     <script src="<?= base_url('node_modules/leaflet/dist/leaflet.js'); ?>"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>

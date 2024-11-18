@@ -55,8 +55,8 @@ class Home extends BaseController
                 'description' => (string)($event->description->text ?? 'Bez popisu')
             ];
         }
-
+        $data['earthquakes'] = json_encode($earthquakes);
         // Předání dat do view
-        return view('skibidi', ['earthquakes' => json_encode($earthquakes)]);
+        return view('skibidi', $data);
     }
 }
